@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b748e35e-238d-45b4-9e6d-a203b8ba6f62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/task2/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/task2/Column.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/task2/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/task2/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/task2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/task2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/task2/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/task2/QueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/task2/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/task2/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Program">
+  <component name="RunManager" selected="Application.Lesson_2.Task_1HW.Program">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_1.App" />
       <module name="JavaJunior" />
@@ -99,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.task2.Program" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_2HW.Program" />
       <module name="JavaJunior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.task2.*" />
+          <option name="PATTERN" value="Lesson_2.Task_2HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,9 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_2.Task_1HW.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Lesson_2.Seminar.taks1.Program" />
-        <item itemvalue="Application.Lesson_2.Task_1HW.Program" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -136,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711553936485</updated>
       <workItem from="1711553937578" duration="4436000" />
-      <workItem from="1711903761222" duration="8487000" />
+      <workItem from="1711903761222" duration="9925000" />
     </task>
     <servers />
   </component>

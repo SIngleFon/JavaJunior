@@ -3,6 +3,8 @@ package Lesson_2.Task_1HW;
 
 import java.awt.*;
 import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class Program {
     /**
@@ -12,7 +14,7 @@ public class Program {
      * Выведите на экран информацию о каждом объекте.
      * Вызовите метод "makeSound()" у каждого объекта, если такой метод присутствует.
      */
-    public static void main(String[] args) throws IllegalAccessException {
+    public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         Animal[] animals = new Animal[]{
                 new Dog("Барс", 2, "Пурина"),
                 new Cat("Мур", 4, "Вискас"),
@@ -26,7 +28,14 @@ public class Program {
             if (animalClass == Dog.class || animalClass == Cat.class) {
                 sb.append(appenderSB(animal));
             }
-            System.out.println(sb + "-------------------------");
+            System.out.println(sb);
+            Method[] methods = animalClass.getDeclaredMethods();
+            for (Method method : methods){
+                method.setAccessible(true);
+                System.out.print(method.getName()+": ");
+                method.invoke(animal);
+            }
+            System.out.println("-------------------------");
         }
     }
     public static StringBuilder appenderSB(Object obj) throws IllegalAccessException {
@@ -41,7 +50,7 @@ public class Program {
         //Поля наследника
         for (Field field : fieldsExtender) {
             field.setAccessible(true); // Разрешаем доступ к приватным полям
-            stringBuilder.append(field.getName()).append(" = ").append(field.get(obj)).append("\n");
+            stringBuilder.append(field.getName()).append(" = ").append(field.get(obj));
         }
         return stringBuilder;
     };
