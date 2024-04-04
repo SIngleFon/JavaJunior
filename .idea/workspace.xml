@@ -4,9 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b748e35e-238d-45b4-9e6d-a203b8ba6f62" name="Changes" comment="">
+    <list default="true" id="e3ba82dc-33aa-4574-b625-b0f480e93780" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_1HW/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_1HW/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/StudentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaJunior.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_1/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/QueryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +42,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2eHG99TwIMltk6s1u61fkFVTCqm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2eeNzy5I6KffKYXg8O5tak8yjhC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,13 +53,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Application.Lesson_2.Seminar.taks1.Program.executor": "Run",
-    "Application.Lesson_2.Task_1HW.Program.executor": "Run",
+    "Application.Lesson_3.Task_1HW.Program.executor": "Run",
+    "Application.Lesson_3.Task_2HW.Program.executor": "Run",
     "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Timur/Desktop/Репозиторий/JavaJunior/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,7 +69,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lesson_2.Task_1HW.Program">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Timur\Desktop\Репозиторий\JavaJunior\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Lesson_3.Task_2HW.Program">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_1.App" />
       <module name="JavaJunior" />
@@ -64,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_2.Seminar.taks1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.Seminar.taks1.Program" />
+    <configuration name="Lesson_3.Task_1HW.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_3.Task_1HW.Program" />
       <module name="JavaJunior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.Seminar.taks1.*" />
+          <option name="PATTERN" value="Lesson_3.Task_1HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_2.Task_1HW.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_1HW.Program" />
+    <configuration name="Lesson_3.Task_2HW.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_3.Task_2HW.Program" />
       <module name="JavaJunior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.Task_1HW.*" />
+          <option name="PATTERN" value="Lesson_3.Task_2HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.Task_2HW.Program" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_3.task2.Program" />
       <module name="JavaJunior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.Task_2HW.*" />
+          <option name="PATTERN" value="Lesson_3.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson_2.Task_1HW.Program" />
+        <item itemvalue="Application.Lesson_3.Task_2HW.Program" />
+        <item itemvalue="Application.Lesson_3.Task_1HW.Program" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Lesson_2.Seminar.taks1.Program" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -122,13 +146,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b748e35e-238d-45b4-9e6d-a203b8ba6f62" name="Changes" comment="" />
-      <created>1711553936485</created>
+      <changelist id="e3ba82dc-33aa-4574-b625-b0f480e93780" name="Changes" comment="" />
+      <created>1712261349911</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1711553936485</updated>
-      <workItem from="1711553937578" duration="4436000" />
-      <workItem from="1711903761222" duration="9925000" />
+      <updated>1712261349911</updated>
+      <workItem from="1712261351093" duration="3888000" />
     </task>
     <servers />
   </component>
