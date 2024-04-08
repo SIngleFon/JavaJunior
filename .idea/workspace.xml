@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3ba82dc-33aa-4574-b625-b0f480e93780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_1HW/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_1HW/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_3/Task_2HW/StudentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/App/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/Session/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_4/models/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaJunior.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_1/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_1HW/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Column.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/QueryBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lesson_2/Task_2HW/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2eeNzy5I6KffKYXg8O5tak8yjhC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,9 +44,14 @@
     "Application.App.executor": "Run",
     "Application.Lesson_3.Task_1HW.Program.executor": "Run",
     "Application.Lesson_3.Task_2HW.Program.executor": "Run",
+    "Application.Lesson_4.App.App.executor": "Run",
+    "Application.Lesson_4.App.Program.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.v2.executor": "Run",
+    "Docker.SchoolDB Config.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Timur/Desktop/Репозиторий/JavaJunior/src/main/java",
@@ -66,6 +60,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,21 +71,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Timur\Desktop\Репозиторий\JavaJunior\src\main\java" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Timur\Desktop\Репозиторий\JavaJunior\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson_3.Task_2HW.Program">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_1.App" />
-      <module name="JavaJunior" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lesson_4.App.App">
     <configuration name="Lesson_3.Task_1HW.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_3.Task_1HW.Program" />
       <module name="JavaJunior" />
@@ -114,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.task2.Program" />
+    <configuration name="Lesson_4.App.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.App.App" />
       <module name="JavaJunior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.task2.*" />
+          <option name="PATTERN" value="Lesson_4.App.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +115,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson_4.Session.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.Session.Program" />
+      <module name="JavaJunior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_4.App.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_4.App.v2" />
+      <module name="JavaJunior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_4.App.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_4.App.App" />
+        <item itemvalue="Application.v2" />
+        <item itemvalue="Application.Lesson_4.Session.Program" />
         <item itemvalue="Application.Lesson_3.Task_2HW.Program" />
         <item itemvalue="Application.Lesson_3.Task_1HW.Program" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712261349911</updated>
-      <workItem from="1712261351093" duration="3888000" />
+      <workItem from="1712261351093" duration="4079000" />
+      <workItem from="1712599023779" duration="13991000" />
     </task>
     <servers />
   </component>
